@@ -53,12 +53,13 @@ python client_sei.py --input rtsp://127.0.0.1:8554/stream
 ## 💻 Requirements
 
 ```bash
-# Python packages
-pip install opencv-python numpy ultralytics
-
 # GStreamer (Ubuntu/Debian)
 sudo apt-get install python3-gi gstreamer1.0-tools gstreamer1.0-plugins-{base,good,bad,ugly} \
                      gir1.2-gst-rtsp-server-1.0 gstreamer1.0-libav
+
+# Python packages
+pip install -r requirements
+
 ```
 
 ## 📖 Usage Examples
