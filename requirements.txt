@@ -1,0 +1,28 @@
+# ------------------------------------------
+# video-meta-rtsp dependencies (CUDA 12.4)
+# ------------------------------------------
+
+# Core computer vision & inference
+ultralytics>=8.1.0
+opencv-python>=4.9.0
+
+# GStreamer Python bindings
+PyGObject>=3.46.0
+
+# Video IO and encoding helpers
+av>=11.0.0
+
+# GPS and NMEA support
+gps3>=0.33.3
+pynmea2>=1.19.0
+pyserial>=3.5
+
+# Utility
+numpy>=1.25.0
+
+# --- CUDA 12.4 builds of PyTorch ---
+torch==2.5.1+cu124
+torchvision==0.20.1+cu124
+torchaudio==2.5.1+cu124
+--extra-index-url https://download.pytorch.org/whl/cu124
+
