@@ -4,7 +4,7 @@
 
 # Core computer vision & inference
 ultralytics>=8.1.0
-opencv-python>=4.9.0
+opencv-python<4.12
 
 # GStreamer Python bindings
 PyGObject>=3.46.0
@@ -18,7 +18,7 @@ pynmea2>=1.19.0
 pyserial>=3.5
 
 # Utility
-numpy>=1.25.0
+numpy<2
 
 # --- CUDA 12.4 builds of PyTorch ---
 torch==2.5.1+cu124
