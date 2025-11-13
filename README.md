@@ -57,6 +57,12 @@ python client_sei.py --input rtsp://127.0.0.1:8554/stream
 sudo apt-get install python3-gi gstreamer1.0-tools gstreamer1.0-plugins-{base,good,bad,ugly} \
                      gir1.2-gst-rtsp-server-1.0 gstreamer1.0-libav
 
+# Create a venv with system site packages available
+/usr/bin/python3 -m venv venv
+
+# Activate venv
+. ./venv/bin/activatee
+
 # Python packages
 pip install -r requirements
 
